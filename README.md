@@ -54,13 +54,11 @@ nmap -sS -sV -O 192.168.56.101
 
 - Windows VM appeared with all ports filtered.
 
-- Used Metasploit to probe HTTP services and identify FTP vulnerabilities.
+- Used Metasploit to probe HTTP services and identify FTP vulnerabilities
 
 - Discovered vulnerable FTP service: vsftpd 2.3.4
   
 ![Screenshot (283)](https://github.com/user-attachments/assets/416a3747-d362-4074-a81f-d2b43a20d19c)
-![Screenshot (285)](https://github.com/user-attachments/assets/8370f191-0df4-4789-9ea9-870cf374fb24)
-![Screenshot (286)](https://github.com/user-attachments/assets/f2c2e45b-094a-4e4f-8208-5e0f790938e3)
 
 ### 4. 🛠️ Vulnerability Assessment
 
@@ -79,8 +77,11 @@ run
 - Successfully gained root shell access to the Linux target via vsftpd backdoor.
 
 - Verified full system control from the attacking Kali machine.
-- 
+
+![Screenshot (285)](https://github.com/user-attachments/assets/8370f191-0df4-4789-9ea9-870cf374fb24)
+![Screenshot (286)](https://github.com/user-attachments/assets/5f2590d1-de8d-4abc-ab36-b957dbc64030)
 ![Screenshot (287)](https://github.com/user-attachments/assets/efc44a1e-9645-405c-8849-425d8e726f8f)
+
 ### 6. 🔒 Maintaining Access
 - Maintained root access using reverse shells.
 
@@ -133,4 +134,3 @@ This penetration test lab helped reinforce:
 - SI110 Cyber-Attack Phases – USNA
 
 - Information Security Stack Exchange
-- 

@@ -5,6 +5,9 @@ This project documents a penetration testing lab I set up using:
 - 💣 Metasploitable 2 (Target)
 - 🪟 Windows 10 VM (Target)
 
+### Skills Learned
+Throughout the course of this project, I gained valuable hands-on experience with the tools, techniques, and methodologies used in real-world penetration testing.
+
 ## 🛠️ Lab Setup
 
 - **Kali Linux** as the attacking machine
